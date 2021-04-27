@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!--BOOTSRAP STYLE-->
+	<link rel="stylesheet" type="text/css" href="/styles/Css/bootstrap.min.css">
+    <!--CUSTOM CSS FOOTER-->
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+
+    <div class="col-md-12">
+        <nav class="navbar navbar-md">
+            <div class="navbar-brand">El Faro</div>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="/index.html" type="button" class="nav-link btn btn-outline-primary">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/noticias.html" type="button" class="nav-link btn btn-outline-primary">Noticias</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/deportes.html" type="button" class="nav-link btn btn-outline-primary">Deportes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/negocios.html" type="button" class="nav-link btn btn-outline-primary">Negocios</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+<section class="col">
+
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contactanos</h2>
+    <p class="text-center w-responsive mx-auto mb-5">Tu Noticia Nos Importa!</p>
+
+    <div class="row">
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name"placeholder="Ingrese su nombre Aqui" class="form-control">
+                            <label for="name" class="" >Nombre</label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" placeholder="Ingrese su correo Aqui" class="form-control">
+                            <label for="email" class="">Correo</label>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Asunto</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" placeholder="Escriba Su Mensaje Aqui" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary">Enviar</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Los jasmines, Chile Chico, Aysen</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+56937213792</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>patricio.leono@correoaiep.cl</p>
+                </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+
+    <!--FOOTER-->
+
+<footer>
+	<div class="footer-top">
+		<div class="container">
+			<div class="col-lg-2 col-xs-12 text-center">
+				<a href="https://github.com/Patricioleono"><i class="fa fa-github fa-2x"></i>Github</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" style="border-top:1px solid grey;">
+		<div class="row text-center">
+			<div class="col-lg-6 col-lg-offset-3">
+				<ul class="menu">
+					<li>
+						<a href="/noticias.html">Noticias</a>
+					</li>
+					<li>
+						<a href="/deportes.html">Deportes</a>
+					</li>
+					<li>
+						<a href="/negocios.html">Negocios</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="row text-center" style="color: black;">
+				<p>Derechos Reservados Patricio Leon 2021</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</section>
+
+
+
+        <script src="/styles/Js/main.js"></script>
+        <script src="/styles/Js/jquery-3.5.1.slim.min.js"></script>
+        <script src="/styles/Js/popper.min.js"></script>
+        <script src="/styles/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
